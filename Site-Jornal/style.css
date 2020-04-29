@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;}
+header, section{
+    width: 100%;
+}
+header {
+    background: #fff url(./imagens/fundo.png) bottom;
+    height: 230px;
+    background-repeat: repeat-x;
+}
+.container{
+    width: 100%;
+    max-width: 990px;
+    margin: 0 auto;
+}
+.topo{
+    padding-top: 25px;
+    height: 200px;
+    background: url(./imagens/detalhe-topo.png) no-repeat right top;
+}
+.logo{
+    width: 152px;
+    height: 66px;
+    float: left;
+    background: url(./imagens/logo.png) no-repeat center;
+}
+.logo a{
+    padding: 33px 76px;
+    float: left;
+    text-indent: -99999px;
+    
+}
+
+.menu{
+    float: left;
+    width: auto;
+    margin-top: 30px;
+    background:#b10333;
+    height: 40px;
+    line-height: 40px;
+    clear: left;
+}
+.menu li {
+    float: left;
+    list-style-type: none;
+}
+.menu a{
+    color:#fff;
+    display: block;
+    padding: 0 2em;
+    text-decoration: none;
+    font-weight: bold;
+    animation: ease 2s;
+    font-size: 12px;
+}
+.menu li:hover{
+    background:rgb(209, 9, 9);
+}
+.home .menu li.select{
+    background:rgb(209, 9, 9);
+}
+
+/*Bloco conteudo*/
+.conteudoList{
+     float: left;
+     width: 300px;
+     margin-top: 15px;
+}
+.conteudoDest{
+    float: left;
+     width: 690px;
+     margin-top: 15px;
+     padding:0 15px;
+}
+.conteudoDest h3,
+.conteudoList h3 {
+    background: #294c71;
+    padding: 10px ;
+    color: #fff;
+    text-transform: uppercase;
+}
+.listEntrevista a {
+padding: 0 15px;
+text-decoration: none;
+font-weight: 700;
+color: #000;
+}
+.listEntrevista li:hover a {
+    color: #ccc;
+    background: url(./imagens/marcador.png) left center no-repeat;
+    padding-left: 20px;
+    }
+.listEntrevista li {
+    line-height: 40px;
+    height: 40px;
+    list-style-type: none;
+    display: block;
+    border-bottom: 1px solid #ccc;
+}
+.newlastter{
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 5px 10px ;
+}
+.newlastter legend{
+    padding: 10px 0 0 0;
+    font-size: 18px;
+    color: #000;
+}
+.newlastter input{
+     padding: 10px;
+     border: 1px solid #ccc;
+     width: 189px;
+}
+.newlastter button{
+    color: #fff;
+    background: #b10333;
+    padding: 10px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.conteudoDest .bloco > h6{
+color: #fff;
+background: #b10333;
+display: inline;
+padding: 10px;
+margin-top: 10px;
+float: left;
+}
+.conteudoDest .bloco img{
+    width: 100%;
+    border: 2px solid #dfdfdf;
+    margin-top: 10px;
+}
+.conteudoDest .bloco a{
+    border-bottom: 1px solid #cccc;
+    color: #b10333;
+    float: left;
+    padding-bottom: 10px;
+}
+
+.conteudoDest .bloco{
+    float: left;
+    padding: 0 10px 20px 10px;
+    width: 320px;
+}
+.conteudoDest .bloco ul li {
+    display: block;
+    height: 120px;
+}
+
+.conteudoDest .bloco ul li img{
+    width: 100px;
+    height: 70px;
+    float: left;
+}
+.conteudoDest .bloco ul li p{
+  
+    padding: 10px ;
+}
