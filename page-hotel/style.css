@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: 0;
+
+}
+body{
+    width: 100%;
+}
+.container {
+    width: 100%;
+    max-width: 1200px;
+    min-width: 320px;
+    margin: 0 auto;
+}
+.logo{
+    display: inline;
+}
+.nav {
+    float: right;
+}
+.nav  ul {
+    float: right;
+    width: 100%;
+    max-width: 800px;
+    height: 74px;
+    line-height: 74px;
+}
+.nav ul li {
+    float: left;
+    padding: 10px 20px;
+    display: block;
+}
+
+@media (min-width:320px) and (max-width:480px ){
+    .logo{
+        text-align: center;
+        display: block;
+    }
+        .nav {
+            background: url(./imagens/menu.svg) no-repeat left center;
+            width: 30px;
+            height: 23px;
+            display: block;
+            float: left;
+            background-size: 100%;
+            margin: 10px;
+            position: absolute;
+            top: 0;
+        }
+    .nav.nav-menu-monile > ul{
+        display: block;
+    }
+    .nav ul{
+        display: none;
+    }
+}
