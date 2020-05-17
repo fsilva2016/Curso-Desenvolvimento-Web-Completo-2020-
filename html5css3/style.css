@@ -1,0 +1,14 @@
+.container  {
+    border: 1px solid #cccccc;
+    background: yellowgreen;
+    display: flex;
+    height: 300px;
+
+    flex-direction: row;
+}
+.item{
+    background: white;
+    height: 200px;
+    width: 200px;
+    border:  1px solid #888888;
+}
