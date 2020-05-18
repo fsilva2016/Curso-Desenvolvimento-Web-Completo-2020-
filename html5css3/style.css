@@ -3,12 +3,21 @@
     background: yellowgreen;
     display: flex;
     height: 300px;
-
+    box-sizing: border-box;
     flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    width: 100%;
+    align-items: flex-start;
+
 }
 .item{
     background: white;
     height: 200px;
     width: 200px;
     border:  1px solid #888888;
+    margin: 0 5px;
+    flex-grow: 1;
+
 }
+

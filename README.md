@@ -1,12 +1,4 @@
-<<<<<<< HEAD
-Aqui estao todos os arquivos dos projeto do curso </br>
-Desenvolvimento Web Completo 2020 - 20 cursos + 20 projetos,
-## feito na escola Udemy 
-=======
->>>>>>> e85e65e49ff68686e4ae9413ab19be79afb64d55
 
-
-> Desafio para aprender toda parte web
 
 ## Desenvolvimento Web Completo 2020 - 20 cursos + 20 projetos, feito na escola Udemy
 
