@@ -1,0 +1,12 @@
+body{
+    width: 100%;
+    background: url(../imagens/fundo.png)repeat-x;
+   box-sizing: border-box;
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    max-width: 1080px;
+    margin: 0 auto;
+}
