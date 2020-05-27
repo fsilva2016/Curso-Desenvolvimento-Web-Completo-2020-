@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            html, body{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            header{
+                background:rebeccapurple;
+                grid-column: 1/3;
+            }
+            main{
+                background: saddlebrown;
+                grid-column: 1/2;
+            }
+            aside{
+                background: seagreen;
+                grid-column: 2/3;
+            }
+            footer{
+                background: sienna;
+                grid-column: 1/3;
+            }
+            .container{
+                display: grid;
+                grid-template-columns: 3fr 1fr ;
+                grid-template-rows: 20vh 70vh 10vh;
+                grid-gap: 20px;
+             }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <header></header>
+            <main></main>
+            <aside></aside>
+            <footer></footer>
+        </div>
+
+    </body>
+</html>
