@@ -2,7 +2,7 @@
 body{
     width: 100%;
     background: url(../imagens/fundo.png)repeat-x;
-   box-sizing: border-box;
+   box-sizing: border-box !important;
    font-family: 'Roboto', sans-serif;
 }
 .container{
@@ -52,4 +52,54 @@ nav li a {
 aside{
     width: 350px;
     float:right
+}
+.visita{
+    background: #cdc8c1;
+    padding: 10px 27px 27px 27px;
+    margin-top: 10px;
+}
+
+.visita input {
+    display: block;
+    margin: 10px 0;
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    border: 1px solid #000;
+    
+}
+.visita  fieldset {
+    padding: 0.35em 0.75em 0.625em;
+    border: 1px solid #000;
+}
+.visita input[type="submit"] {
+    margin: 10px 0;
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    border: 1px solid #632003;
+    padding: 10px;
+    background: #632003;
+    color: #fff;
+    font-weight: bolder;
+    font-size: 18px;
+}
+.galeria{
+    background: #cccccc6b;
+    float: left;
+    margin-top: 20px;
+    padding: 27px;
+}
+.galeria a{
+    display: block;
+    background: url(../imagens/fundo-foto.png) no-repeat;
+    
+    float: left;
+    padding: 20px;
+}
+article.video{
+    float: left;
+}
+article.maps{
+    float: right;
 }
